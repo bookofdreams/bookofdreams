@@ -1,0 +1,29 @@
+{
+  "name": "midnight:tower",
+  "tower": {
+    "type": "ROGUE",
+    "theme": {
+      "primary": {
+        "walls": {
+          "type": "WEIGHTED",
+          "data": [
+            {"type" : "METABLOCK", "data" : {"name" : "aether:holystone"}, "weight" : 5},
+						{"type" : "METABLOCK", "data" : {"name" : "gravel"}, "weight" : 2},
+						{"type" : "METABLOCK", "data" : {"name" : "aether:faded_holystone_brick_decorative", "meta": 1}, "weight" : 2},
+						{"type" : "METABLOCK", "data" : {"name" : "aether:faded_holystone_brick_decorative", "meta": 2}, "weight" : 2},
+						{"type" : "METABLOCK", "data" : {"name" : "aether:faded_holystone_brick_decorative", "meta": 3}, "weight" : 2},
+						{"type" : "METABLOCK", "data" : {"name" : "aether:faded_holystone_brick_decorative", "meta": 4}, "weight" : 2},
+						{"type" : "METABLOCK", "data" : {"name" : "aether:holystone_brick"}, "weight" : 7},
+						{"type" : "METABLOCK", "data" : {"name" : "aether:faded_holystone_brick"}, "weight" : 5},
+						{"type" : "METABLOCK", "data" : {"name" : "air"}, "weight" : 1}
+          ]
+        },
+        "stair": {"type": "METABLOCK", "data" : {"name" : "aether:holystone_brick_stairs"}, "weight" : 7},
+        "lightblock": {
+          "type": "METABLOCK",
+          "data": {"name": "aether:hellfirestone_lantern"}
+        }
+      }
+    }
+  }
+}

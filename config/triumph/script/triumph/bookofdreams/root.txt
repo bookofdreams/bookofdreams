@@ -1,0 +1,37 @@
+
+//This is a root advancement. It is the base advancement for a page. As such, it has no parent and has to set a background.
+
+//Set icon item
+setIcon(<patchouli:guide_book>)
+
+//Set title String
+setTitle("Book of Dreams")
+
+//Set description String
+setDescription("Get started in a new world")
+
+//Set background String. This is a path to any texture in a resource pack, so you can set it to fun things.
+setBackground("minecraft:textures/gui/advancements/backgrounds/adventure.png")
+
+//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
+setShowToast(false)
+
+//Set the advancement to not send a chat message when it is achieved.
+setAnnounceToChat(false)
+
+//Set the position
+setPos(-168,-74)
+
+//Adds a single location criteria. Since this has nothing specific set, it will be completed the instant the player is added to the world, thus unlocking the page instantly.
+addCriteria("location", "minecraft:location")
+
+//Adds an item to be rewarded upon completion. Only one of these can be set currently.
+setRewardItem(<patchouli:guide_book, nbt:{"patchouli:book":"patchouli:bookofdreams"}>)
+setRewardItem(<patchouli:guide_book, nbt:{"patchouli:book":"hwell:book_of_the_well"}>)
+setRewardItem(<advancementbook:advancement_book>)
+setRewardItem(<waystones:waystone>)
+//setrewarditem(<aether:skyroot_bed_item>)
+setRewarditem(<thebetweenlands:moss_bed_item>)
+setRewardItem(<contenttweaker:blink_scroll, meta:0, count:6>)
+//setRewardItem(<theoneprobe:creativeprobe>)
+setRewardItem(<aether:ambrosium_torch, meta:0, count:32>)

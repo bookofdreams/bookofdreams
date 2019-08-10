@@ -1,0 +1,6 @@
+{
+  "name": "Book of Dreams",
+  "landing_text": "Mysterious guide book",
+  "version": 0.1,
+  "advancement_namespaces": [ "triumph" ]
+}

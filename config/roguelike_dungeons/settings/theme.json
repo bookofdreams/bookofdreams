@@ -1,0 +1,6 @@
+{
+  "name": "midnight:themes",
+  "inherit": [
+    "midnight:aether"
+  ]
+}

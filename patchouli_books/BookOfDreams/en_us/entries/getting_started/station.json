@@ -1,0 +1,23 @@
+{
+    "name": "Crafting",
+    "icon": "craftingstation:tooltables",
+    "category": "getting_started",
+    "advancement": "triumph:bookofdreams/forage",
+    "turnin": "triumph:bookofdreams/crafting_station",
+    "pages": [
+      {
+        "type": "text",
+        "title": "Old World Crafting",
+        "text": "While much of the old world is gone, you think you can still remember how to make a crafting station."
+      },
+      {
+        "type": "crafting",
+        "recipe": "craftingstation:tools/table/crafting_station"
+      },
+      {
+        "type": "quest",
+        "trigger": "triumph:bookofdreams/crafting_station",
+        "text": "Craft a crafting station"
+      }
+    ]
+}

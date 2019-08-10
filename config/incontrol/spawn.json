@@ -1,0 +1,27 @@
+[
+  {
+    "mod": "lumen",
+    "mincount": {
+      "amount": 60,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "mod": "lumen",
+    "mincount": {
+      "amount": 20,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": "eyesinthedarkness:eyes",
+    "mincount": {
+      "amount": 4,
+      "perplayer": true,
+      "mod": "eyesinthedarkness"
+    },
+    "result": "deny"
+  }
+]

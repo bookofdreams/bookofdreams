@@ -1,0 +1,29 @@
+
+//Set icon item
+setIcon(<aether:skyroot_axe>)
+
+//Set title String
+setTitle("New World Tools")
+
+//Set description String
+setDescription("Craft a set of skyroot tools")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:bookofdreams/forage")
+
+//Set the position
+//setPos(149,41)
+
+//Hide the connection lines, so I can have a pretty shape
+// hideLines()
+
+//Adds criteria with the trigger type "minecraft:inventory_changed". This function returns the criteria as an object
+criteria = addCriteria("hasSkyrootTools", "minecraft:inventory_changed")
+
+//Adds the required item for the criteria. This is the item that needs to be in the player inventory.
+criteria.addItem("aether:skyroot_axe")
+criteria.addItem("aether:skyroot_pickaxe")
+criteria.addItem("aether:skyroot_sword")
+
+setRequirements("all")
+setPos(-97,52)

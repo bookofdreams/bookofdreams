@@ -1,0 +1,395 @@
++-------------------------------------------------------------+------+------+---------------------------------+----------+
+| NOTE: The Block ID is for very specific low-level purposes only!                                                       |
+| It WILL be different in every world since Minecraft 1.7,                                                               |
+| because they are dynamically allocated by the game!                                                                    |
++-------------------------------------------------------------+------+------+---------------------------------+----------+
+| Registry name                                               |   ID | meta | Display name                    |    Count |
++-------------------------------------------------------------+------+------+---------------------------------+----------+
+| aether:aether_dirt                                          |  695 |    0 | Aether Dirt                     |   393023 |
+| aether:aether_grass                                         |  696 |    0 | Highlands Grass                 |   135209 |
+| arcanelamps:arcanecrystalore                                |  271 |    0 | Arcane Crystal Ore              |     3956 |
+| astralsorcery:blockcustomore                                | 3340 |    0 | Rock Crystal Ore                |        8 |
+| astralsorcery:blockcustomsandore                            | 3341 |    0 | Aquamarine Shale                |       24 |
+| astralsorcery:blockmarble                                   | 3343 |    0 | Marble                          |    48832 |
+| astralsorcery:blockmarble                                   | 3343 |    1 | Marble Bricks                   |      150 |
+| astralsorcery:blockmarble                                   | 3343 |    2 | Marble Pillar                   |      134 |
+| astralsorcery:blockmarble                                   | 3343 |    4 | Chiseled Marble                 |        8 |
+| astralsorcery:blockmarble                                   | 3343 |    6 | Runed Marble                    |       31 |
+| botania:mushroom                                            | 1579 |    0 | White Shimmering Mushroom       |        1 |
+| botania:mushroom                                            | 1579 |    1 | Orange Shimmering Mushroom      |        1 |
+| botania:mushroom                                            | 1579 |    2 | Magenta Shimmering Mushroom     |        1 |
+| botania:mushroom                                            | 1579 |    3 | Light Blue Shimmering Mushroom  |        1 |
+| botania:mushroom                                            | 1579 |    4 | Yellow Shimmering Mushroom      |        2 |
+| botania:mushroom                                            | 1579 |    5 | Lime Shimmering Mushroom        |        3 |
+| botania:mushroom                                            | 1579 |    6 | Pink Shimmering Mushroom        |        2 |
+| botania:mushroom                                            | 1579 |    7 | Gray Shimmering Mushroom        |        3 |
+| botania:mushroom                                            | 1579 |    8 | Light Gray Shimmering Mushroom  |        2 |
+| botania:mushroom                                            | 1579 |   10 | Purple Shimmering Mushroom      |        5 |
+| botania:mushroom                                            | 1579 |   11 | Blue Shimmering Mushroom        |        1 |
+| botania:mushroom                                            | 1579 |   13 | Green Shimmering Mushroom       |        2 |
+| botania:mushroom                                            | 1579 |   14 | Red Shimmering Mushroom         |        2 |
+| botania:mushroom                                            | 1579 |   15 | Black Shimmering Mushroom       |        5 |
+| charm:crate_sealed                                          | 3394 |    0 | Oak Sealed Crate                |       10 |
+| charm:crate_sealed                                          | 3394 |    1 | Spruce Sealed Crate             |       15 |
+| charm:crate_sealed                                          | 3394 |    2 | Birch Sealed Crate              |       13 |
+| charm:crate_sealed                                          | 3394 |    3 | Jungle Sealed Crate             |       14 |
+| charm:crate_sealed                                          | 3394 |    4 | Acacia Sealed Crate             |       12 |
+| charm:crate_sealed                                          | 3394 |    5 | Dark Oak Sealed Crate           |       18 |
+| chisel:basalt2                                              | 1772 |    7 | Basalt                          |    68021 |
+| chisel:limestone2                                           | 1927 |    7 | Limestone                       |   229752 |
+| chisel:marble2                                              | 1930 |    7 | Marble                          |   313350 |
+| corvus:crystal_quartz_ore                                   | 2071 |    0 | Crystal Quartz Ore              |     3691 |
+| earthworks:block_chalk                                      | 2162 |    0 | Chalk                           |    13185 |
+| earthworks:block_slate                                      | 2178 |    0 | Blue Slate                      |   142475 |
+| earthworks:block_slate_green                                | 2179 |    0 | Green Slate                     |   141323 |
+| earthworks:block_slate_purple                               | 2180 |    0 | Purple Slate                    |   139721 |
+| embers:ore_aluminum                                         | 3506 |    0 | Aluminium Ore                   |     8432 |
+| embers:ore_copper                                           | 3405 |    0 | Copper Ore                      |    34784 |
+| embers:ore_lead                                             | 3406 |    0 | Lead Ore                        |    10665 |
+| embers:ore_nickel                                           | 3511 |    0 | Nickel Ore                      |     7270 |
+| embers:ore_quartz                                           | 3470 |    0 | Quartz Ore                      |     9568 |
+| embers:ore_silver                                           | 3407 |    0 | Silver Ore                      |     7710 |
+| embers:ore_tin                                              | 3514 |    0 | Tin Ore                         |    12351 |
+| endreborn:block_essence_ore                                 | 2473 |    0 | Essence Ore                     |    36440 |
+| endreborn:block_wolframium_ore                              | 2479 |    0 | Wolframium Ore                  |    25932 |
+| endreborn:end_stone_glow                                    | 2487 |    0 | Glow Endstone                   |     9010 |
+| minecraft:air                                               |    0 |    0 | minecraft:air                   | 31913073 |
+| minecraft:bed                                               |   26 |    0 | minecraft:bed                   |        1 |
+| minecraft:bed                                               |   26 |    3 | minecraft:bed                   |        1 |
+| minecraft:bed                                               |   26 |    8 | minecraft:bed                   |        1 |
+| minecraft:bed                                               |   26 |   11 | minecraft:bed                   |        1 |
+| minecraft:bedrock                                           |    7 |    0 | Bedrock                         |   504120 |
+| minecraft:cauldron                                          |  118 |    3 | minecraft:cauldron              |        1 |
+| minecraft:chest                                             |   54 |    2 | Oak Chest                       |       45 |
+| minecraft:chest                                             |   54 |    3 | Oak Chest                       |        9 |
+| minecraft:chest                                             |   54 |    4 | Oak Chest                       |        8 |
+| minecraft:chest                                             |   54 |    5 | Oak Chest                       |        7 |
+| minecraft:clay                                              |   82 |    0 | Clay                            |    56106 |
+| minecraft:coal_ore                                          |   16 |    0 | Coal Ore                        |        4 |
+| minecraft:cobblestone                                       |    4 |    0 | Cobblestone                     |      611 |
+| minecraft:crafting_table                                    |   58 |    0 | Crafting Table                  |        2 |
+| minecraft:dirt                                              |    3 |    0 | Dirt                            |    43632 |
+| minecraft:dirt                                              |    3 |    1 | Coarse Dirt                     |      216 |
+| minecraft:fence                                             |   85 |    0 | Oak Fence                       |     1108 |
+| minecraft:fire                                              |   51 |    2 | minecraft:fire                  |        1 |
+| minecraft:flower_pot                                        |  140 |    0 | minecraft:flower_pot            |        2 |
+| minecraft:flowing_lava                                      |   10 |    0 | minecraft:flowing_lava          |     1571 |
+| minecraft:flowing_lava                                      |   10 |    4 | minecraft:flowing_lava          |        1 |
+| minecraft:flowing_lava                                      |   10 |    6 | minecraft:flowing_lava          |        2 |
+| minecraft:flowing_water                                     |    8 |    4 | minecraft:flowing_water         |        1 |
+| minecraft:gold_ore                                          |   14 |    0 | Gold Ore                        |        1 |
+| minecraft:grass                                             |    2 |    0 | Grass Block                     |     2205 |
+| minecraft:gravel                                            |   13 |    0 | Gravel                          |     7234 |
+| minecraft:iron_door                                         |   71 |    0 | minecraft:iron_door             |        1 |
+| minecraft:iron_door                                         |   71 |    1 | minecraft:iron_door             |        1 |
+| minecraft:iron_door                                         |   71 |    8 | minecraft:iron_door             |        2 |
+| minecraft:iron_ore                                          |   15 |    0 | Iron Ore                        |       15 |
+| minecraft:ladder                                            |   65 |    3 | Ladder                          |        4 |
+| minecraft:lava                                              |   11 |    0 | minecraft:lava                  |    57852 |
+| minecraft:lava                                              |   11 |    2 | minecraft:lava                  |       29 |
+| minecraft:lava                                              |   11 |    4 | minecraft:lava                  |       20 |
+| minecraft:lava                                              |   11 |    6 | minecraft:lava                  |        8 |
+| minecraft:lava                                              |   11 |    8 | minecraft:lava                  |        1 |
+| minecraft:lava                                              |   11 |   10 | minecraft:lava                  |        8 |
+| minecraft:lava                                              |   11 |   12 | minecraft:lava                  |        9 |
+| minecraft:lava                                              |   11 |   14 | minecraft:lava                  |        7 |
+| minecraft:log                                               |   17 |    1 | Spruce Wood                     |       52 |
+| minecraft:mob_spawner                                       |   52 |    0 | Monster Spawner                 |       13 |
+| minecraft:mossy_cobblestone                                 |   48 |    0 | Moss Stone                      |     1562 |
+| minecraft:oak_stairs                                        |   53 |    4 | Oak Wood Stairs                 |        1 |
+| minecraft:oak_stairs                                        |   53 |    5 | Oak Wood Stairs                 |        1 |
+| minecraft:oak_stairs                                        |   53 |    6 | Oak Wood Stairs                 |        1 |
+| minecraft:oak_stairs                                        |   53 |    7 | Oak Wood Stairs                 |        1 |
+| minecraft:planks                                            |    5 |    0 | Oak Wood Planks                 |     1449 |
+| minecraft:rail                                              |   66 |    0 | Rail                            |      236 |
+| minecraft:rail                                              |   66 |    1 | Rail                            |      130 |
+| minecraft:rail                                              |   66 |    9 | Rail                            |        2 |
+| minecraft:red_flower                                        |   38 |    0 | Poppy                           |        6 |
+| minecraft:red_flower                                        |   38 |    1 | Blue Orchid                     |        1 |
+| minecraft:red_flower                                        |   38 |    6 | White Tulip                     |        2 |
+| minecraft:red_flower                                        |   38 |    8 | Oxeye Daisy                     |        1 |
+| minecraft:red_sandstone                                     |  179 |    0 | Red Sandstone                   |      222 |
+| minecraft:redstone_ore                                      |   73 |    0 | Redstone Ore                    |        3 |
+| minecraft:sand                                              |   12 |    0 | Sand                            |   170325 |
+| minecraft:sandstone                                         |   24 |    0 | Sandstone                       |   119765 |
+| minecraft:sandstone                                         |   24 |    2 | Smooth Sandstone                |       22 |
+| minecraft:sea_lantern                                       |  169 |    0 | Sea Lantern                     |       20 |
+| minecraft:skull                                             |  144 |    1 | minecraft:skull                 |       14 |
+| minecraft:spruce_door                                       |  193 |    1 | minecraft:spruce_door           |        1 |
+| minecraft:spruce_door                                       |  193 |    8 | minecraft:spruce_door           |        1 |
+| minecraft:spruce_fence                                      |  188 |    0 | Spruce Fence                    |        2 |
+| minecraft:stone                                             |    1 |    0 | Stone                           |    92521 |
+| minecraft:stone_brick_stairs                                |  109 |    4 | Stone Brick Stairs              |       64 |
+| minecraft:stone_brick_stairs                                |  109 |    5 | Stone Brick Stairs              |       64 |
+| minecraft:stone_brick_stairs                                |  109 |    6 | Stone Brick Stairs              |       65 |
+| minecraft:stone_brick_stairs                                |  109 |    7 | Stone Brick Stairs              |       66 |
+| minecraft:stone_slab                                        |   44 |    5 | Stone Bricks Slab               |       16 |
+| minecraft:stone_slab                                        |   44 |   13 | Stone Bricks Slab               |       16 |
+| minecraft:stonebrick                                        |   98 |    0 | Stone Bricks                    |     1573 |
+| minecraft:stonebrick                                        |   98 |    1 | Mossy Stone Bricks              |     1576 |
+| minecraft:stonebrick                                        |   98 |    2 | Cracked Stone Bricks            |     1602 |
+| minecraft:stonebrick                                        |   98 |    3 | Chiseled Stone Bricks           |       80 |
+| minecraft:tallgrass                                         |   31 |    1 | Shrub                           |      177 |
+| minecraft:tallgrass                                         |   31 |    2 | Shrub                           |      143 |
+| minecraft:torch                                             |   50 |    1 | Torch                           |        1 |
+| minecraft:torch                                             |   50 |    2 | Torch                           |        1 |
+| minecraft:torch                                             |   50 |    3 | Torch                           |        4 |
+| minecraft:torch                                             |   50 |    4 | Torch                           |        2 |
+| minecraft:trapdoor                                          |   96 |    1 | Oak Trapdoor                    |        1 |
+| minecraft:vine                                              |  106 |    2 | Vines                           |        2 |
+| minecraft:vine                                              |  106 |    6 | Vines                           |        1 |
+| minecraft:water                                             |    9 |    0 | minecraft:water                 |   150866 |
+| minecraft:water                                             |    9 |    1 | minecraft:water                 |       60 |
+| minecraft:water                                             |    9 |    2 | minecraft:water                 |       37 |
+| minecraft:water                                             |    9 |    3 | minecraft:water                 |       21 |
+| minecraft:water                                             |    9 |    4 | minecraft:water                 |       18 |
+| minecraft:water                                             |    9 |    5 | minecraft:water                 |       14 |
+| minecraft:water                                             |    9 |    6 | minecraft:water                 |       13 |
+| minecraft:water                                             |    9 |    7 | minecraft:water                 |       13 |
+| minecraft:water                                             |    9 |    9 | minecraft:water                 |       39 |
+| minecraft:water                                             |    9 |   10 | minecraft:water                 |       16 |
+| minecraft:water                                             |    9 |   11 | minecraft:water                 |        3 |
+| minecraft:water                                             |    9 |   12 | minecraft:water                 |        1 |
+| minecraft:water                                             |    9 |   13 | minecraft:water                 |        1 |
+| minecraft:water                                             |    9 |   15 | minecraft:water                 |        1 |
+| minecraft:web                                               |   30 |    0 | Cobweb                          |      524 |
+| minecraft:wooden_button                                     |  143 |    1 | Oak Button                      |        1 |
+| minecraft:wooden_button                                     |  143 |    2 | Oak Button                      |        1 |
+| minecraft:wooden_button                                     |  143 |    3 | Oak Button                      |        1 |
+| minecraft:wooden_button                                     |  143 |    4 | Oak Button                      |        1 |
+| minecraft:wooden_slab                                       |  126 |    9 | Spruce Wood Slab                |        2 |
+| mysticalworld:amethyst_ore                                  | 3642 |    0 | Amethyst Ore                    |     3412 |
+| mysticalworld:thatch                                        | 3639 |    0 | Thatch                          |       52 |
+| quark:elder_prismarine                                      | 1285 |    0 | Elder Prismarine                |     1720 |
+| quark:limestone                                             | 1278 |    0 | Limestone                       |    10020 |
+| quark:marble                                                | 1273 |    0 | Marble                          |     2792 |
+| quark:marble_speleothem                                     | 1259 |    0 | Marble Speleothem               |        1 |
+| quark:marble_speleothem                                     | 1259 |    1 | Marble Speleothem               |        1 |
+| quark:marble_speleothem                                     | 1259 |    2 | Marble Speleothem               |        1 |
+| quark:monster_box                                           | 1267 |    0 | Monster Box                     |        4 |
+| quark:roots                                                 | 1248 |    1 | Cave Roots                      |     2237 |
+| quark:roots                                                 | 1248 |    2 | Cave Roots                      |     2536 |
+| quark:roots                                                 | 1248 |    4 | Cave Roots                      |     1947 |
+| quark:roots                                                 | 1248 |    8 | Cave Roots                      |     2149 |
+| quark:roots_black_flower                                    | 1250 |    1 | Cave Roots                      |      122 |
+| quark:roots_black_flower                                    | 1250 |    2 | Cave Roots                      |       76 |
+| quark:roots_black_flower                                    | 1250 |    4 | Cave Roots                      |      130 |
+| quark:roots_black_flower                                    | 1250 |    8 | Cave Roots                      |      111 |
+| quark:roots_blue_flower                                     | 1249 |    1 | Cave Roots                      |       75 |
+| quark:roots_blue_flower                                     | 1249 |    2 | Cave Roots                      |       68 |
+| quark:roots_blue_flower                                     | 1249 |    4 | Cave Roots                      |      110 |
+| quark:roots_blue_flower                                     | 1249 |    8 | Cave Roots                      |      107 |
+| quark:roots_white_flower                                    | 1251 |    1 | Cave Roots                      |       52 |
+| quark:roots_white_flower                                    | 1251 |    2 | Cave Roots                      |       47 |
+| quark:roots_white_flower                                    | 1251 |    4 | Cave Roots                      |       64 |
+| quark:roots_white_flower                                    | 1251 |    8 | Cave Roots                      |       45 |
+| quark:stone_speleothem                                      | 1253 |    0 | Stone Speleothem                |       58 |
+| quark:stone_speleothem                                      | 1253 |    1 | Stone Speleothem                |       55 |
+| quark:stone_speleothem                                      | 1253 |    2 | Stone Speleothem                |       36 |
+| rustic:core_root                                            |  587 |    3 | rustic:core_root                |       18 |
+| rustic:horsetail                                            |  590 |    3 | Horsetail                       |        3 |
+| rustic:mooncap_mushroom                                     |  592 |    3 | Mooncap Mushroom                |       19 |
+| rustic:slate                                                |  493 |    0 | Slate                           |    72109 |
+| rustic:wildberry_bush                                       |  571 |    1 | Wildberry Bush                  |        1 |
+| rustic:wind_thistle                                         |  593 |    3 | Wind Thistle                    |        1 |
+| soot:sulfur_ore                                             | 3539 |    0 | Sulfur Ore                      |       16 |
+| soulus:fossil_dirt                                          | 3093 |    0 | Dirt with Fossils               |    70150 |
+| soulus:fossil_dirt_ender                                    | 3096 |    0 | Dirt with Glowing Fossils       |     8567 |
+| soulus:fossil_gravel_scale                                  | 3103 |    0 | Gravel with Scale Fossils       |      142 |
+| soulus:fossil_sand_scale                                    | 3098 |    0 | Sand with Scale Fossils         |      188 |
+| soulus:summoner                                             | 3116 |    1 | Empty Summoner                  |       41 |
+| soulus:summoner                                             | 3116 |    5 | Empty Summoner                  |        4 |
+| thaumcraft:crystal_aer                                      | 1330 |    1 | Air Crystal                     |      236 |
+| thaumcraft:crystal_aer                                      | 1330 |    2 | Air Crystal                     |      274 |
+| thaumcraft:crystal_aer                                      | 1330 |    3 | Air Crystal                     |      283 |
+| thaumcraft:crystal_aer                                      | 1330 |    4 | Air Crystal                     |        1 |
+| thaumcraft:crystal_aqua                                     | 1332 |    1 | Water Crystal                   |       82 |
+| thaumcraft:crystal_aqua                                     | 1332 |    2 | Water Crystal                   |      119 |
+| thaumcraft:crystal_aqua                                     | 1332 |    3 | Water Crystal                   |      124 |
+| thaumcraft:crystal_ignis                                    | 1331 |    1 | Fire Crystal                    |       90 |
+| thaumcraft:crystal_ignis                                    | 1331 |    2 | Fire Crystal                    |       82 |
+| thaumcraft:crystal_ignis                                    | 1331 |    3 | Fire Crystal                    |      108 |
+| thaumcraft:crystal_ordo                                     | 1334 |    1 | Order Crystal                   |       63 |
+| thaumcraft:crystal_ordo                                     | 1334 |    2 | Order Crystal                   |       65 |
+| thaumcraft:crystal_ordo                                     | 1334 |    3 | Order Crystal                   |       96 |
+| thaumcraft:crystal_ordo                                     | 1334 |    4 | Order Crystal                   |        1 |
+| thaumcraft:crystal_perditio                                 | 1335 |    1 | Entropy Crystal                 |       56 |
+| thaumcraft:crystal_perditio                                 | 1335 |    2 | Entropy Crystal                 |       76 |
+| thaumcraft:crystal_perditio                                 | 1335 |    3 | Entropy Crystal                 |       69 |
+| thaumcraft:crystal_terra                                    | 1333 |    1 | Earth Crystal                   |       56 |
+| thaumcraft:crystal_terra                                    | 1333 |    2 | Earth Crystal                   |       67 |
+| thaumcraft:crystal_terra                                    | 1333 |    3 | Earth Crystal                   |       62 |
+| thaumcraft:ore_amber                                        | 1327 |    0 | Amber Bearing Stone             |       24 |
+| thaumcraft:ore_cinnabar                                     | 1328 |    0 | Cinnabar Ore                    |       27 |
+| thaumcraft:ore_quartz                                       | 1329 |    0 | Quartz Ore                      |       29 |
+| undergroundbiomes:igneous_cobble                            | 3649 |    2 | Rhyolite Cobblestone            |       52 |
+| undergroundbiomes:igneous_cobble                            | 3649 |    3 | Andesite Cobblestone            |       58 |
+| undergroundbiomes:igneous_cobble                            | 3649 |    6 | Komatiite Cobblestone           |      179 |
+| undergroundbiomes:igneous_cobble_mossy                      | 3653 |    2 | Rhyolite Mossy Cobblestone      |        2 |
+| undergroundbiomes:igneous_cobble_mossy                      | 3653 |    3 | Andesite Mossy Cobblestone      |      162 |
+| undergroundbiomes:igneous_cobble_mossy                      | 3653 |    6 | Komatiite Mossy Cobblestone     |      183 |
+| undergroundbiomes:igneous_gravel                            | 3666 |    0 | Red Granite Gravel              |        3 |
+| undergroundbiomes:igneous_gravel                            | 3666 |    2 | Rhyolite Gravel                 |     2093 |
+| undergroundbiomes:igneous_gravel                            | 3666 |    3 | Andesite Gravel                 |      696 |
+| undergroundbiomes:igneous_gravel                            | 3666 |    6 | Komatiite Gravel                |      256 |
+| undergroundbiomes:igneous_gravel                            | 3666 |    7 | Dacite Gravel                   |     1286 |
+| undergroundbiomes:igneous_sand                              | 3669 |    2 | Rhyolite Sand                   |      411 |
+| undergroundbiomes:igneous_sand                              | 3669 |    3 | Andesite Sand                   |      290 |
+| undergroundbiomes:igneous_sand                              | 3669 |    6 | Komatiite Sand                  |      424 |
+| undergroundbiomes:igneous_sand                              | 3669 |    7 | Dacite Sand                     |      349 |
+| undergroundbiomes:igneous_speleothem                        | 3672 |    2 | Rhyolite Speleothem             |       42 |
+| undergroundbiomes:igneous_speleothem                        | 3672 |    2 | Rhyolite Speleothem             |       68 |
+| undergroundbiomes:igneous_speleothem                        | 3672 |    2 | Rhyolite Speleothem             |       86 |
+| undergroundbiomes:igneous_speleothem                        | 3672 |    3 | Andesite Speleothem             |       44 |
+| undergroundbiomes:igneous_speleothem                        | 3672 |    3 | Andesite Speleothem             |       66 |
+| undergroundbiomes:igneous_speleothem                        | 3672 |    3 | Andesite Speleothem             |      134 |
+| undergroundbiomes:igneous_speleothem                        | 3672 |    6 | Komatiite Speleothem            |      181 |
+| undergroundbiomes:igneous_speleothem                        | 3672 |    6 | Komatiite Speleothem            |      257 |
+| undergroundbiomes:igneous_speleothem                        | 3672 |    6 | Komatiite Speleothem            |      257 |
+| undergroundbiomes:igneous_speleothem                        | 3672 |    7 | Dacite Speleothem               |        3 |
+| undergroundbiomes:igneous_speleothem                        | 3672 |    7 | Dacite Speleothem               |        6 |
+| undergroundbiomes:igneous_speleothem                        | 3672 |    7 | Dacite Speleothem               |        7 |
+| undergroundbiomes:igneous_stone                             | 3647 |    2 | Rhyolite                        |  1490895 |
+| undergroundbiomes:igneous_stone                             | 3647 |    3 | Andesite                        |  1227631 |
+| undergroundbiomes:igneous_stone                             | 3647 |    5 | Basalt                          |     3600 |
+| undergroundbiomes:igneous_stone                             | 3647 |    6 | Komatiite                       |  1314225 |
+| undergroundbiomes:igneous_stone                             | 3647 |    7 | Dacite                          |  2017945 |
+| undergroundbiomes:igneous_stone_coal_ore                    | 3763 |    2 | Red Granite Coal Ore            |     1812 |
+| undergroundbiomes:igneous_stone_coal_ore                    | 3763 |    3 | Red Granite Coal Ore            |     1118 |
+| undergroundbiomes:igneous_stone_coal_ore                    | 3763 |    6 | Red Granite Coal Ore            |      856 |
+| undergroundbiomes:igneous_stone_coal_ore                    | 3763 |    7 | Red Granite Coal Ore            |     2274 |
+| undergroundbiomes:igneous_stone_diamond_ore                 | 3757 |    2 | Red Granite Diamond Ore         |       38 |
+| undergroundbiomes:igneous_stone_diamond_ore                 | 3757 |    3 | Red Granite Diamond Ore         |       30 |
+| undergroundbiomes:igneous_stone_diamond_ore                 | 3757 |    6 | Red Granite Diamond Ore         |       20 |
+| undergroundbiomes:igneous_stone_diamond_ore                 | 3757 |    7 | Red Granite Diamond Ore         |       32 |
+| undergroundbiomes:igneous_stone_gold_ore                    | 3760 |    2 | Red Granite Gold Ore            |      127 |
+| undergroundbiomes:igneous_stone_gold_ore                    | 3760 |    3 | Red Granite Gold Ore            |       86 |
+| undergroundbiomes:igneous_stone_gold_ore                    | 3760 |    6 | Red Granite Gold Ore            |       44 |
+| undergroundbiomes:igneous_stone_gold_ore                    | 3760 |    7 | Red Granite Gold Ore            |      124 |
+| undergroundbiomes:igneous_stone_iron_ore                    | 3769 |    2 | Red Granite Iron Ore            |     1091 |
+| undergroundbiomes:igneous_stone_iron_ore                    | 3769 |    3 | Red Granite Iron Ore            |      698 |
+| undergroundbiomes:igneous_stone_iron_ore                    | 3769 |    6 | Red Granite Iron Ore            |      472 |
+| undergroundbiomes:igneous_stone_iron_ore                    | 3769 |    7 | Red Granite Iron Ore            |     1350 |
+| undergroundbiomes:igneous_stone_lapis_ore                   | 3781 |    2 | Gabbro Lapis Lazuli Ore         |       42 |
+| undergroundbiomes:igneous_stone_lapis_ore                   | 3781 |    3 | Gabbro Lapis Lazuli Ore         |       49 |
+| undergroundbiomes:igneous_stone_lapis_ore                   | 3781 |    6 | Gabbro Lapis Lazuli Ore         |       23 |
+| undergroundbiomes:igneous_stone_lapis_ore                   | 3781 |    7 | Gabbro Lapis Lazuli Ore         |       52 |
+| undergroundbiomes:igneous_stone_redstone_ore                | 3772 |    2 | Red Granite Redstone Ore        |      388 |
+| undergroundbiomes:igneous_stone_redstone_ore                | 3772 |    3 | Red Granite Redstone Ore        |      262 |
+| undergroundbiomes:igneous_stone_redstone_ore                | 3772 |    6 | Red Granite Redstone Ore        |      183 |
+| undergroundbiomes:igneous_stone_redstone_ore                | 3772 |    7 | Red Granite Redstone Ore        |      406 |
+| undergroundbiomes:igneous_stone_thaumcraft_ore_amber        | 3778 |    2 | Red Granite Amber Bearing Stone |     1748 |
+| undergroundbiomes:igneous_stone_thaumcraft_ore_amber        | 3778 |    3 | Red Granite Amber Bearing Stone |     1315 |
+| undergroundbiomes:igneous_stone_thaumcraft_ore_amber        | 3778 |    5 | Red Granite Amber Bearing Stone |        5 |
+| undergroundbiomes:igneous_stone_thaumcraft_ore_amber        | 3778 |    6 | Red Granite Amber Bearing Stone |      977 |
+| undergroundbiomes:igneous_stone_thaumcraft_ore_amber        | 3778 |    7 | Red Granite Amber Bearing Stone |     2284 |
+| undergroundbiomes:igneous_stone_thaumcraft_ore_cinnabar     | 3766 |    2 | Red Granite Cinnabar Ore        |     1552 |
+| undergroundbiomes:igneous_stone_thaumcraft_ore_cinnabar     | 3766 |    3 | Red Granite Cinnabar Ore        |     1678 |
+| undergroundbiomes:igneous_stone_thaumcraft_ore_cinnabar     | 3766 |    5 | Red Granite Cinnabar Ore        |        4 |
+| undergroundbiomes:igneous_stone_thaumcraft_ore_cinnabar     | 3766 |    6 | Red Granite Cinnabar Ore        |     1519 |
+| undergroundbiomes:igneous_stone_thaumcraft_ore_cinnabar     | 3766 |    7 | Red Granite Cinnabar Ore        |     2598 |
+| undergroundbiomes:igneous_stone_thaumcraft_ore_quartz       | 3754 |    2 | Red Granite Quartz Ore          |     1665 |
+| undergroundbiomes:igneous_stone_thaumcraft_ore_quartz       | 3754 |    3 | Red Granite Quartz Ore          |     1570 |
+| undergroundbiomes:igneous_stone_thaumcraft_ore_quartz       | 3754 |    5 | Red Granite Quartz Ore          |        5 |
+| undergroundbiomes:igneous_stone_thaumcraft_ore_quartz       | 3754 |    6 | Red Granite Quartz Ore          |     1338 |
+| undergroundbiomes:igneous_stone_thaumcraft_ore_quartz       | 3754 |    7 | Red Granite Quartz Ore          |     2574 |
+| undergroundbiomes:metamorphic_cobble                        | 3656 |    6 | Soapstone Cobblestone           |       77 |
+| undergroundbiomes:metamorphic_cobble_mossy                  | 3660 |    6 | Soapstone Mossy Cobblestone     |      114 |
+| undergroundbiomes:metamorphic_gravel                        | 3667 |    2 | Marble Gravel                   |      133 |
+| undergroundbiomes:metamorphic_gravel                        | 3667 |    6 | Soapstone Gravel                |     3872 |
+| undergroundbiomes:metamorphic_sand                          | 3670 |    6 | Soapstone Sand                  |      227 |
+| undergroundbiomes:metamorphic_speleothem                    | 3673 |    2 | Marble Speleothem               |       38 |
+| undergroundbiomes:metamorphic_speleothem                    | 3673 |    2 | Marble Speleothem               |       43 |
+| undergroundbiomes:metamorphic_speleothem                    | 3673 |    2 | Marble Speleothem               |       48 |
+| undergroundbiomes:metamorphic_speleothem                    | 3673 |    6 | Soapstone Speleothem            |       30 |
+| undergroundbiomes:metamorphic_speleothem                    | 3673 |    6 | Soapstone Speleothem            |       41 |
+| undergroundbiomes:metamorphic_speleothem                    | 3673 |    6 | Soapstone Speleothem            |       43 |
+| undergroundbiomes:metamorphic_stone                         | 3654 |    2 | Marble                          |   196314 |
+| undergroundbiomes:metamorphic_stone                         | 3654 |    6 | Soapstone                       |   698707 |
+| undergroundbiomes:metamorphic_stone_coal_ore                | 3764 |    2 | Gneiss Coal Ore                 |      106 |
+| undergroundbiomes:metamorphic_stone_coal_ore                | 3764 |    6 | Gneiss Coal Ore                 |     2853 |
+| undergroundbiomes:metamorphic_stone_diamond_ore             | 3758 |    6 | Gneiss Diamond Ore              |       99 |
+| undergroundbiomes:metamorphic_stone_gold_ore                | 3761 |    2 | Gneiss Gold Ore                 |       11 |
+| undergroundbiomes:metamorphic_stone_gold_ore                | 3761 |    6 | Gneiss Gold Ore                 |      259 |
+| undergroundbiomes:metamorphic_stone_iron_ore                | 3770 |    2 | Gneiss Iron Ore                 |       72 |
+| undergroundbiomes:metamorphic_stone_iron_ore                | 3770 |    6 | Gneiss Iron Ore                 |     1834 |
+| undergroundbiomes:metamorphic_stone_lapis_ore               | 3782 |    6 | Blue Schist Lapis Lazuli Ore    |      118 |
+| undergroundbiomes:metamorphic_stone_redstone_ore            | 3773 |    6 | Gneiss Redstone Ore             |      749 |
+| undergroundbiomes:metamorphic_stone_thaumcraft_ore_amber    | 3779 |    2 | Gneiss Amber Bearing Stone      |      270 |
+| undergroundbiomes:metamorphic_stone_thaumcraft_ore_amber    | 3779 |    6 | Gneiss Amber Bearing Stone      |      788 |
+| undergroundbiomes:metamorphic_stone_thaumcraft_ore_cinnabar | 3767 |    2 | Gneiss Cinnabar Ore             |      214 |
+| undergroundbiomes:metamorphic_stone_thaumcraft_ore_cinnabar | 3767 |    6 | Gneiss Cinnabar Ore             |      889 |
+| undergroundbiomes:metamorphic_stone_thaumcraft_ore_quartz   | 3755 |    2 | Gneiss Quartz Ore               |      184 |
+| undergroundbiomes:metamorphic_stone_thaumcraft_ore_quartz   | 3755 |    6 | Gneiss Quartz Ore               |      844 |
+| undergroundbiomes:sedimentary_gravel                        | 3668 |    0 | Limestone Gravel                |       18 |
+| undergroundbiomes:sedimentary_gravel                        | 3668 |    2 | Shale Gravel                    |        1 |
+| undergroundbiomes:sedimentary_gravel                        | 3668 |    3 | Siltstone Gravel                |     1446 |
+| undergroundbiomes:sedimentary_gravel                        | 3668 |    4 | Limestone Gravel                |      377 |
+| undergroundbiomes:sedimentary_sand                          | 3671 |    0 | Limestone Sand                  |       61 |
+| undergroundbiomes:sedimentary_sand                          | 3671 |    1 | Chalk Sand                      |       10 |
+| undergroundbiomes:sedimentary_sand                          | 3671 |    3 | Siltstone Sand                  |       23 |
+| undergroundbiomes:sedimentary_speleothem                    | 3674 |    0 | Limestone Speleothem            |       33 |
+| undergroundbiomes:sedimentary_speleothem                    | 3674 |    0 | Limestone Speleothem            |       49 |
+| undergroundbiomes:sedimentary_speleothem                    | 3674 |    0 | Limestone Speleothem            |       55 |
+| undergroundbiomes:sedimentary_speleothem                    | 3674 |    1 | Chalk Speleothem                |        2 |
+| undergroundbiomes:sedimentary_speleothem                    | 3674 |    1 | Chalk Speleothem                |        2 |
+| undergroundbiomes:sedimentary_speleothem                    | 3674 |    1 | Chalk Speleothem                |        2 |
+| undergroundbiomes:sedimentary_speleothem                    | 3674 |    3 | Siltstone Speleothem            |       16 |
+| undergroundbiomes:sedimentary_speleothem                    | 3674 |    3 | Siltstone Speleothem            |       29 |
+| undergroundbiomes:sedimentary_speleothem                    | 3674 |    3 | Siltstone Speleothem            |       33 |
+| undergroundbiomes:sedimentary_speleothem                    | 3674 |    4 | Limestone Speleothem            |       10 |
+| undergroundbiomes:sedimentary_speleothem                    | 3674 |    4 | Limestone Speleothem            |       16 |
+| undergroundbiomes:sedimentary_speleothem                    | 3674 |    4 | Limestone Speleothem            |       30 |
+| undergroundbiomes:sedimentary_stone                         | 3661 |    0 | Limestone                       |   152190 |
+| undergroundbiomes:sedimentary_stone                         | 3661 |    1 | Chalk                           |    66418 |
+| undergroundbiomes:sedimentary_stone                         | 3661 |    2 | Shale                           |   156054 |
+| undergroundbiomes:sedimentary_stone                         | 3661 |    3 | Siltstone                       |   376728 |
+| undergroundbiomes:sedimentary_stone                         | 3661 |    4 | Limestone                       |   162502 |
+| undergroundbiomes:sedimentary_stone                         | 3661 |    5 | Dolomite                        |     9489 |
+| undergroundbiomes:sedimentary_stone                         | 3661 |    6 | Greywacke                       |    13645 |
+| undergroundbiomes:sedimentary_stone                         | 3661 |    7 | Chert                           |      151 |
+| undergroundbiomes:sedimentary_stone_coal_ore                | 3765 |    0 | Limestone Coal Ore              |       99 |
+| undergroundbiomes:sedimentary_stone_coal_ore                | 3765 |    1 | Limestone Coal Ore              |       89 |
+| undergroundbiomes:sedimentary_stone_coal_ore                | 3765 |    2 | Limestone Coal Ore              |      192 |
+| undergroundbiomes:sedimentary_stone_coal_ore                | 3765 |    3 | Limestone Coal Ore              |      930 |
+| undergroundbiomes:sedimentary_stone_coal_ore                | 3765 |    4 | Limestone Coal Ore              |      430 |
+| undergroundbiomes:sedimentary_stone_coal_ore                | 3765 |    5 | Limestone Coal Ore              |       10 |
+| undergroundbiomes:sedimentary_stone_gold_ore                | 3762 |    2 | Limestone Gold Ore              |        8 |
+| undergroundbiomes:sedimentary_stone_gold_ore                | 3762 |    3 | Limestone Gold Ore              |       12 |
+| undergroundbiomes:sedimentary_stone_gold_ore                | 3762 |    4 | Limestone Gold Ore              |       13 |
+| undergroundbiomes:sedimentary_stone_iron_ore                | 3771 |    0 | Limestone Iron Ore              |       84 |
+| undergroundbiomes:sedimentary_stone_iron_ore                | 3771 |    1 | Limestone Iron Ore              |       43 |
+| undergroundbiomes:sedimentary_stone_iron_ore                | 3771 |    2 | Limestone Iron Ore              |      103 |
+| undergroundbiomes:sedimentary_stone_iron_ore                | 3771 |    3 | Limestone Iron Ore              |      451 |
+| undergroundbiomes:sedimentary_stone_iron_ore                | 3771 |    4 | Limestone Iron Ore              |      255 |
+| undergroundbiomes:sedimentary_stone_iron_ore                | 3771 |    5 | Limestone Iron Ore              |       11 |
+| undergroundbiomes:sedimentary_stone_lapis_ore               | 3783 |    2 | Lignite Block Lapis Lazuli Ore  |        2 |
+| undergroundbiomes:sedimentary_stone_lapis_ore               | 3783 |    4 | Lignite Block Lapis Lazuli Ore  |       10 |
+| undergroundbiomes:sedimentary_stone_mossy                   | 3665 |    0 | Mossy Limestone                 |        8 |
+| undergroundbiomes:sedimentary_stone_mossy                   | 3665 |    2 | Mossy Shale                     |       34 |
+| undergroundbiomes:sedimentary_stone_mossy                   | 3665 |    3 | Mossy Siltstone                 |       47 |
+| undergroundbiomes:sedimentary_stone_mossy                   | 3665 |    4 | Mossy Limestone                 |        2 |
+| undergroundbiomes:sedimentary_stone_thaumcraft_ore_amber    | 3780 |    0 | Limestone Amber Bearing Stone   |      250 |
+| undergroundbiomes:sedimentary_stone_thaumcraft_ore_amber    | 3780 |    1 | Limestone Amber Bearing Stone   |      187 |
+| undergroundbiomes:sedimentary_stone_thaumcraft_ore_amber    | 3780 |    2 | Limestone Amber Bearing Stone   |      227 |
+| undergroundbiomes:sedimentary_stone_thaumcraft_ore_amber    | 3780 |    3 | Limestone Amber Bearing Stone   |      483 |
+| undergroundbiomes:sedimentary_stone_thaumcraft_ore_amber    | 3780 |    4 | Limestone Amber Bearing Stone   |       37 |
+| undergroundbiomes:sedimentary_stone_thaumcraft_ore_amber    | 3780 |    5 | Limestone Amber Bearing Stone   |       43 |
+| undergroundbiomes:sedimentary_stone_thaumcraft_ore_amber    | 3780 |    6 | Limestone Amber Bearing Stone   |       41 |
+| undergroundbiomes:sedimentary_stone_thaumcraft_ore_amber    | 3780 |    7 | Limestone Amber Bearing Stone   |        1 |
+| undergroundbiomes:sedimentary_stone_thaumcraft_ore_cinnabar | 3768 |    0 | Limestone Cinnabar Ore          |      147 |
+| undergroundbiomes:sedimentary_stone_thaumcraft_ore_cinnabar | 3768 |    1 | Limestone Cinnabar Ore          |       74 |
+| undergroundbiomes:sedimentary_stone_thaumcraft_ore_cinnabar | 3768 |    2 | Limestone Cinnabar Ore          |      248 |
+| undergroundbiomes:sedimentary_stone_thaumcraft_ore_cinnabar | 3768 |    3 | Limestone Cinnabar Ore          |      616 |
+| undergroundbiomes:sedimentary_stone_thaumcraft_ore_cinnabar | 3768 |    4 | Limestone Cinnabar Ore          |      239 |
+| undergroundbiomes:sedimentary_stone_thaumcraft_ore_cinnabar | 3768 |    5 | Limestone Cinnabar Ore          |        2 |
+| undergroundbiomes:sedimentary_stone_thaumcraft_ore_quartz   | 3756 |    0 | Limestone Quartz Ore            |      161 |
+| undergroundbiomes:sedimentary_stone_thaumcraft_ore_quartz   | 3756 |    1 | Limestone Quartz Ore            |       86 |
+| undergroundbiomes:sedimentary_stone_thaumcraft_ore_quartz   | 3756 |    2 | Limestone Quartz Ore            |      233 |
+| undergroundbiomes:sedimentary_stone_thaumcraft_ore_quartz   | 3756 |    3 | Limestone Quartz Ore            |      473 |
+| undergroundbiomes:sedimentary_stone_thaumcraft_ore_quartz   | 3756 |    4 | Limestone Quartz Ore            |      185 |
+| undergroundbiomes:sedimentary_stone_thaumcraft_ore_quartz   | 3756 |    5 | Limestone Quartz Ore            |        9 |
+| undergroundbiomes:sedimentary_stone_thaumcraft_ore_quartz   | 3756 |    6 | Limestone Quartz Ore            |        3 |
++-------------------------------------------------------------+------+------+---------------------------------+----------+
+| Registry name                                               |   ID | meta | Display name                    |    Count |
++-------------------------------------------------------------+------+------+---------------------------------+----------+

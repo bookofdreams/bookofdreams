@@ -1,0 +1,371 @@
+{
+	"version": "0.4.2",
+
+	"power_crystal_recipes": {
+		"nucleous": [
+			{
+				"item": { "item": "minecraft:snowball", "data": 0 },
+				"name": "Cold",
+				"power": 10, "range": 1, "purity": 0.68
+			},
+			{
+				"item": { "item": "minecraft:diamond", "data": 0 },
+				"name": "Shiny",
+				"power": 275, "range": 4, "purity": 0.76
+			},
+			{
+				"item": { "item": "hwell:myst_rod" },
+				"name": "Mysterious",
+				"power": 45, "range": 2, "purity": 0.99
+			},
+			{
+				"item": { "item": "minecraft:blaze_rod" },
+				"name": "Fiery",
+				"power": 0, "range": 2, "purity": 1.0
+			},
+			{
+				"item": { "item": "hwell:crystal_catalyst" },
+				"name": "Essential",
+				"power": 180, "range": 2, "purity": 0.93
+			},
+			{
+				"item": { "item": "hwell:locked_light" },
+				"name": "Lux",
+				"power": 225, "range": 0, "purity": 0.93
+			}
+		],
+		"relay": [
+			{
+				"item": { "item": "minecraft:stone", "data": 0 },
+				"name": "Rocky",
+				"power": 20, "range": 3, "purity": 0.67
+			},
+			{
+				"item": { "item": "minecraft:quartz_block", "data": 0 },
+				"name": "Quartz",
+				"power": 250, "range": 4, "purity": 0.85
+			},
+			{
+				"item": { "item": "minecraft:redstone_block" },
+				"name": "Powered",
+				"power": 1000, "range": 6, "purity": 0.85
+			},
+			{
+				"item": { "item": "minecraft:end_stone"},
+				"name": "Ender",
+				"power": 2500, "range": 3, "purity": 0.91
+			},
+			{
+				"item": { "item": "hwell:moonstone" },
+				"name": "Moon",
+				"power": 1500, "range": 4, "purity": 0.99
+			},
+			{
+				"item": { "item": "hwell:smooth_azurite" },
+				"name": "Azure",
+				"power": 1800, "range": 2, "purity": 0.85
+			},
+			{
+				"item": { "item": "minecraft:lapis_block" },
+				"name": "Azure",
+				"power": 1900, "range": 3, "purity": 0.81
+			},
+			{
+				"item": { "item": "hwell:mystic_iron_block" },
+				"name": "Ferrum",
+				"power": 2500, "range": 3, "purity": 0.98
+			},
+			{
+				"item": { "item": "hwell:soulsteel_block" },
+				"name": "Souls",
+				"power": 7500, "range": 1, "purity": 0.98
+			}
+		],
+		"screen": [
+			{
+				"item": { "item": "minecraft:glass" },
+				"name": "Transparent",
+				"power": 35, "range": -1, "purity": 0.83
+			},
+			{
+				"item": { "item": "minecraft:packed_ice" },
+				"name": "Icy",
+				"power": 350, "range": 1, "purity": 0.87
+			},
+			{
+				"item": { "item": "hwell:crystal_block" },
+				"name": "Crystal",
+				"power": 220, "range": 2, "purity": 0.97
+			},
+			{
+				"item": { "item": "hwell:scorch_glass" },
+				"name": "Scorched",
+				"power": 135, "range": 3, "purity": 0.91
+			},
+			{
+				"item": { "item": "hwell:crystal_nether_block" },
+				"name": "Nether",
+				"power": 350, "range": 1, "purity": 0.91
+			}
+		]
+	}
+
+	,
+
+	"charger_recipes": [
+		{
+			"special_liquid_souls_bucket_recipe": true,
+			"power": 120
+		},
+		{
+			"input": { "item": "hwell:myst_dust" },
+			"output": { "item": "hwell:dust" },
+			"power": 10
+		},
+		{
+			"input": { "item": "hwell:myst_leaves" },
+			"power": 20
+		},
+		{
+			"input": { "item": "hwell:myst_rod" },
+			"output": { "item": "hwell:empty_rod" },
+			"power": 175
+		},
+		{
+			"input": { "item": "hwell:crystal_catalyst" },
+			"power": 220
+		},
+		{
+			"input": { "item": "hwell:seed_of_life" },
+			"power": 320
+		},
+		{
+			"input": { "item": "minecraft:glowstone_dust" },
+			"power": 220
+		},
+		{
+			"input": { "item": "hwell:locked_light" },
+			"power": 480
+		},
+		{
+			"input": { "item": "minecraft:tnt" },
+			"power": 280
+		},
+		{
+			"input": { "item": "minecraft:coal", "data": 0 },
+			"power": 35
+		},
+		{
+			"input": { "item": "minecraft:experience_bottle" },
+			"output": { "item": "minecraft:glass_bottle" },
+			"power": 450
+		}
+	]
+
+	,
+
+	"coring_recipes": {
+		"core_stone": {
+			"shard_c" : {
+				"output": { "item": "minecraft:coal_block" },
+				"inputs": [{ "item": "minecraft:log" },{ "item": "minecraft:log2" }]
+			},
+			"shard_fe" : {
+				"output": { "item": "minecraft:iron_block" },
+				"inputs": [{ "item": "aether:holystone" },{ "item": "aether:agiosite" }]
+			},
+			"shard_au" : {
+				"output": { "item": "minecraft:gold_block" },
+				"inputs": [{ "item": "minecraft:iron_block" }]
+			},
+			"shard_h" : {
+				"output": { "item": "minecraft:soul_sand" },
+				"inputs": [{ "item": "minecraft:quartz_block" }]
+			},
+			"shard_o" : {
+				"output": { "item": "hwell:compressed_clay" },
+				"inputs": [{ "item": "minecraft:air" }]
+			},
+			"shard_ca" : {
+				"output": { "item": "minecraft:bone_block" },
+				"inputs": [{ "item": "minecraft:glass" },{ "item": "minecraft:stained_glass" }]
+			},
+			"shard_p" : {
+				"output": { "item": "minecraft:redstone_block" },
+				"inputs": [{ "item": "minecraft:netherrack" },{ "item": "minecraft:magma" }]
+			},
+			"shard_n" : {
+				"output": { "item": "hwell:mutation_paste_block" },
+				"inputs": [{ "item": "hwell:fertile_soil" }]
+			}
+		},
+		"core_anima": {
+			"shard_c" : {
+				"output": { "item": "hwell:ink_block" },
+				"inputs": [{ "item": "minecraft:coal_block" }]
+			},
+			"shard_fe" : {
+				"output": { "item": "hwell:compressed_wool" },
+				"inputs": [{ "item": "minecraft:air" }]
+			},
+			"shard_h" : {
+				"output": { "item": "hwell:meat_block" },
+				"inputs": [{ "item": "hwell:skin_block" }]
+			},
+			"shard_ca" : {
+				"output": { "item": "hwell:plumage_block" },
+				"inputs": [{ "item": "hwell:compressed_wool" }]
+			},
+			"shard_p" : {
+				"output": { "item": "hwell:skin_block" },
+				"inputs": [{ "item": "hwell:compressed_wool" }]
+			},
+			"shard_n" : {
+				"output": { "item": "minecraft:slime" },
+				"inputs": [{ "item": "hwell:ink_block" }]
+			}
+		},
+		"core_heat": {
+			"shard_c" : {
+				"output": { "item": "minecraft:tnt" },
+				"inputs": [{ "item": "minecraft:hardened_clay" },{ "item": "minecraft:stained_hardened_clay" }]
+			},
+			"shard_fe" : {
+				"output": { "item": "minecraft:nether_brick" },
+				"inputs": [{ "item": "minecraft:iron_block" }]
+			},
+			"shard_au" : {
+				"output": { "item": "minecraft:glowstone" },
+				"inputs": [{ "item": "minecraft:gold_block" }]
+			},
+			"shard_h" : {
+				"output": { "item": "minecraft:netherrack" },
+				"inputs": [{ "item": "minecraft:coal_block" }]
+			},
+			"shard_o" : {
+				"output": { "item": "minecraft:sea_lantern" },
+				"inputs": [{ "item": "minecraft:snow" }]
+			},
+			"shard_ca" : {
+				"output": { "item": "minecraft:quartz_block", "data": 0 },
+				"inputs": [{ "item": "minecraft:snow" }]
+			},
+			"shard_p" : {
+				"output": { "item": "minecraft:magma" },
+				"inputs": [{ "item": "minecraft:netherrack" },{ "item": "minecraft:nether_brick" }]
+			},
+			"shard_n" : {
+				"output": { "item": "minecraft:emerald_block" },
+				"inputs": [{ "item": "minecraft:diamond_block" }]
+			}
+		},
+		"core_green": {
+			"shard_c" : {
+				"output": { "item": "minecraft:mycelium" },
+				"inputs": [{ "item": "minecraft:brown_mushroom_block" }, { "item": "minecraft:red_mushroom_block" }]
+			},
+			"shard_fe" : {
+				"output": { "item": "minecraft:melon_block" },
+				"inputs": [{ "item": "hwell:fertilizer_block" }]
+			},
+			"shard_au" : {
+				"output": { "item": "minecraft:pumpkin" },
+				"inputs": [{ "item": "hwell:fertilizer_block" }]
+			},
+			"shard_o" : {
+				"output": { "item": "minecraft:lapis_block" },
+				"inputs": [{ "item": "minecraft:prismarine" }]
+			},
+			"shard_n" : {
+				"output": { "item": "minecraft:prismarine", "data": 0 },
+				"inputs": [{ "item": "minecraft:ice" },{ "item": "minecraft:packed_ice" }]
+			}
+		},
+		"core_sentient": {
+			"shard_c" : {
+				"output": { "item": "minecraft:dirt", "data": 2 },
+				"inputs": [{ "item": "minecraft:cobblestone" }]
+			},
+			"shard_fe" : {
+				"output": { "item": "hwell:metaldiamond_block" },
+				"inputs": [{ "item": "minecraft:diamond_block" }]
+			},
+			"shard_au" : {
+				"output": { "item": "minecraft:end_stone" },
+				"inputs": [{ "item": "minecraft:glowstone" }]
+			},
+			"shard_h" : {
+				"output": { "item": "minecraft:purpur_block" },
+				"inputs": [{ "item": "minecraft:end_stone" }]
+			},
+			"shard_o" : {
+				"output": { "item": "minecraft:diamond_block" },
+				"inputs": [{ "item": "minecraft:redstone_block" }]
+			},
+			"shard_ca" : {
+				"output": { "item": "hwell:weeping_block" },
+				"inputs": [{ "item": "minecraft:red_nether_brick" }]
+			},
+			"shard_p" : {
+				"output": { "item": "minecraft:nether_wart_block" },
+				"inputs": [{ "item": "minecraft:brown_mushroom_block" }, { "item": "minecraft:red_mushroom_block" }]
+			},
+			"shard_n" : {
+				"output": { "item": "minecraft:emerald_block" },
+				"inputs": [{ "item": "minecraft:diamond_block" }]
+			}
+		}
+	}
+
+	,
+
+	"puller_recipes": [
+		{
+			"FINAL_PROBABILITY": "THIS PROBABILITY / SUM OF ALL PROBABILITIES",
+
+			"output": { "item": "minecraft:coal_ore" },
+			"probability": 30.0,
+			"filter": { "item": "hwell:shard_c"}
+		},
+		{
+			"output": { "item": "minecraft:iron_ore" },
+			"probability": 25.0,
+			"filter": { "item": "hwell:shard_fe"}
+		},
+		{
+			"output": { "item": "minecraft:gold_ore" },
+			"probability": 8.0,
+			"filter": { "item": "hwell:shard_au"}
+		},
+		{
+			"output": { "item": "minecraft:redstone_ore" },
+			"probability": 8.0,
+			"filter": { "item": "hwell:shard_p"}
+		},
+		{
+			"output": { "item": "hwell:quartz_ore" },
+			"probability": 8.0,
+			"filter": { "item": "hwell:shard_ca"}
+		},
+		{
+			"output": { "item": "hwell:glowstone_ore" },
+			"probability": 8.0,
+			"filter": { "item": "hwell:shard_au"}
+		},
+		{
+			"output": { "item": "minecraft:lapis_ore" },
+			"probability": 8.0,
+			"filter": { "item": "hwell:shard_o"}
+		},
+		{
+			"output": { "item": "minecraft:diamond_ore" },
+			"probability": 2.5,
+			"filter": { "item": "hwell:shard_h"}
+		},
+		{
+			"output": { "item": "minecraft:emerald_ore" },
+			"probability": 2.5,
+			"filter": { "item": "hwell:shard_n"}
+		}
+	]
+}

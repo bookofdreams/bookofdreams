@@ -1,0 +1,37 @@
+{
+    "name": "Mysterious Plants",
+    "icon": "hwell:myst_grass",
+    "category": "getting_started",
+    "advancement": "triumph:bookofdreams/tools",
+    "turnin": "triumph:bookofdreams/mysterious_plants",
+    "pages": [
+      {
+        "type": "text",
+        "title": "Mysterious Plants",
+        "text": "You will need to manage a few plant-based resources when starting out rebuilding your world using Hearth Well.$(br2)Mystical grass will help make collection of mystical dust less tedious."
+      },
+      {
+        "type": "text",
+        "text": "Mystical trees can be grown by using mystical fertilizer on an old world sapling.  Old world saplings can only be planted on old world soils.  You may have to craft some fertile soil.$(br2)See The $(o)Book of the Well$() for more information."
+      },
+      {
+        "type": "crafting",
+        "recipe": "CTMystGrass",
+        "text": "These blocks will grow mysterious grass.  When broken, the grass drops mysterious dust."
+      },
+      {
+        "type": "crafting",
+        "recipe": "CTFertileSoil",
+        "recipe2": "hwell:myst_fertilizer"
+      },
+      {
+        "type": "quest",
+        "trigger": "triumph:bookofdreams/mysterious_plants",
+        "text": "Gather mysterious logs"
+      },
+      {
+        "type": "spotlight",
+        "item": "hwell:myst_log"
+      }
+    ]
+}

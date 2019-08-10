@@ -1,0 +1,37 @@
+{
+    "name": "Crystal Shards",
+    "icon": "hwell:crystal_block",
+    "category": "getting_started",
+    "advancement": "triumph:bookofdreams/mysterious_plants",
+    "turnin": "triumph:bookofdreams/crystal_shards",
+    "pages": [
+      {
+        "type": "text",
+        "title": "Crystal Shards",
+        "text": "To start generating ores, you are going to need to make some crystals.$(br2)Smelt some crystals, and then crush them with the crushing block."
+      },
+      {
+        "type": "crafting",
+        "recipe": "hwell:leaf_mesh",
+        "text": "Craft some shears and make as many of these as you can afford."
+      },
+      {
+        "type": "smelting",
+        "recipe": "hwell:leaf_mesh"
+      },
+      {
+        "type": "crafting",
+        "recipe": "hwell:crystal",
+        "text": "Crush these by dropping a $(bold)crushing block$() on them."
+      },
+      {
+        "type": "quest",
+        "trigger": "triumph:bookofdreams/crystal_shards",
+        "text": "Gather four $(bold)Shards of the Sacred Land$()."
+      },
+      {
+        "type": "spotlight",
+        "item": "hwell:shard_fe"
+      }
+    ]
+}

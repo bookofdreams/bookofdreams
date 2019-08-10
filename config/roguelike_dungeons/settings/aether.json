@@ -1,0 +1,45 @@
+{
+  "name": "midnight:aether",
+  "themes": [
+    {
+      "level": 0,
+      "primary": {
+        "walls": {
+          "type": "WEIGHTED",
+          "data": [
+            {"type" : "METABLOCK", "data" : {"name" : "aether:holystone"}, "weight" : 5},
+  					{"type" : "METABLOCK", "data" : {"name" : "gravel"}, "weight" : 2},
+  					{"type" : "METABLOCK", "data" : {"name" : "aether:faded_holystone_brick_decorative", "meta": 1}, "weight" : 2},
+  					{"type" : "METABLOCK", "data" : {"name" : "aether:faded_holystone_brick_decorative", "meta": 2}, "weight" : 2},
+  					{"type" : "METABLOCK", "data" : {"name" : "aether:faded_holystone_brick_decorative", "meta": 3}, "weight" : 2},
+  					{"type" : "METABLOCK", "data" : {"name" : "aether:faded_holystone_brick_decorative", "meta": 4}, "weight" : 2},
+  					{"type" : "METABLOCK", "data" : {"name" : "aether:holystone_brick"}, "weight" : 7},
+  					{"type" : "METABLOCK", "data" : {"name" : "aether:faded_holystone_brick"}, "weight" : 5},
+  					{"type" : "METABLOCK", "data" : {"name" : "aether:holystone_slab", "meta": 0}, "weight" : 1},
+  					{"type" : "METABLOCK", "data" : {"name" : "aether:holystone_slab", "meta": 1}, "weight" : 1}
+          ]
+        },
+        "pillar": {
+          "type": "WEIGHTED",
+          "data": [
+  					{"type" : "METABLOCK", "data" : {"name" : "aether:holystone_pillar"}, "weight" : 9},
+  					{"type" : "METABLOCK", "data" : {"name" : "aether:faded_holystone_pillar"}, "weight" : 1}
+          ]
+        },
+        "floor": {
+          "type": "WEIGHTED",
+          "data": [
+  					{"type" : "METABLOCK", "data" : {"name" : "aether:holystone_brick_decorative", "meta": 4}, "weight" : 7},
+  					{"type" : "METABLOCK", "data" : {"name" : "aether:faded_holystone_brick_decorative", "meta": 4}, "weight" : 1}
+          ]
+        },
+        "stair": {"name" : "aether:holystone_brick_stairs"},
+        "door": {"name" : "aether:skyroot_door"},
+        "lightblock": {
+          "type": "METABLOCK",
+          "data": {"name": "aether:hellfirestone_lantern"}
+        }
+      }
+    }
+  ]
+}

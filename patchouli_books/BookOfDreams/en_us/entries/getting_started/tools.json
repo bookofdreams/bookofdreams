@@ -1,0 +1,28 @@
+{
+    "name": "New Tools",
+    "icon": "aether:skyroot_axe",
+    "category": "getting_started",
+    "advancement": "triumph:bookofdreams/forage",
+    "turnin": "triumph:bookofdreams/tools",
+    "pages": [
+      {
+        "type": "text",
+        "title": "New Tools",
+        "text": "New world, new tools.$(br2)Use the saplings you foraged and harvest some wood to make some new skyroot tools. Twerk to grow them faster."
+      },
+      {
+        "type": "crafting",
+        "recipe": "CTSkyrootAxe",
+        "recipe2": "CTSkyrootPickaxe"
+      },
+      {
+        "type": "crafting",
+        "recipe": "CTSkyrootSword"
+      },
+      {
+        "type": "quest",
+        "trigger": "triumph:bookofdreams/tools",
+        "text": "Craft a skyroot axe, pickaxe, and sword."
+      }
+    ]
+}

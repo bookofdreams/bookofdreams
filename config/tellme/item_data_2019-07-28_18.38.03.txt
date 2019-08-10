@@ -1,0 +1,8 @@
+Book of Dreams (patchouli:guide_book - 8523:0) has NBT data
+
+{"patchouli:book":"patchouli:bookofdreams"}
+
+TAG_Compound (10) ('')
+{
+    TAG_String (8) ('patchouli:book'): "patchouli:bookofdreams"
+}

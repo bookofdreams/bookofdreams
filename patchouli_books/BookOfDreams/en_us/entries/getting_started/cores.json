@@ -1,0 +1,27 @@
+{
+    "name": "Cores & Ores",
+    "icon": "hwell:core_stone",
+    "category": "getting_started",
+    "advancement": "triumph:bookofdreams/crystal_shards",
+    "turnin": "triumph:bookofdreams/coring",
+    "pages": [
+      {
+        "type": "text",
+        "title": "Cores & Ores",
+        "text": "To generate ores, you need to first craft cores.  Place the cores on the ground next to catalysts, activate them with crystal shards, and the cores will turn into the respective ores.$(br2)Prepare to replace the catalysts many times.  You will later be able to improve this process using stabilizers."
+      },
+      {
+        "type": "text",
+        "text": "Craft 4 rock cores, and use them to create iron.$(br2)See The $(o)Book of the Well$() for more information."
+      },
+      {
+        "type": "crafting",
+        "recipe": "CTCoreStone"
+      },
+      {
+        "type": "quest",
+        "trigger": "triumph:bookofdreams/coring",
+        "text": "Craft four $(bold)Rock Cores$()."
+      }
+    ]
+}

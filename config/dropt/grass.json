@@ -1,0 +1,43 @@
+{ "rules": [
+{
+  "match": {
+    "blocks": {
+      "blocks": [
+        "aether:tall_aether_grass:*"
+      ]
+    }
+  },
+  "replaceStrategy": "ADD",
+  "drops": [
+    {
+      "selector": {
+        "weight": { "value": 65 }
+      }
+    },
+    {
+      "selector": {
+        "weight": { "value": 20 }
+      },
+      "item": {
+        "items": ["hwell:myst_dust:0"]
+      }
+    },
+    {
+      "selector": {
+        "weight": { "value": 10 }
+      },
+      "item": {
+        "items": ["aether:wisproot_sapling:*", "aether:skyroot_sapling:*", "aether:greatroot_sapling:*"]
+      }
+    },
+    {
+      "selector": {
+        "weight": { "value": 5 }
+      },
+      "item": {
+        "items": ["minecraft:sapling:0"]
+      }
+    }
+  ]
+}
+]}

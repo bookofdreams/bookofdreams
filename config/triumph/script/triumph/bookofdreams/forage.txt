@@ -1,0 +1,28 @@
+
+//Set icon item
+setIcon(<minecraft:sapling>)
+
+//Set title String
+setTitle("Forager!")
+
+//Set description String
+setDescription("Acquire mystical dust and a sapling by foraging")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:bookofdreams/root")
+
+//Set the position
+//setPos(149,41)
+
+//Hide the connection lines, so I can have a pretty shape
+// hideLines()
+
+//Adds criteria with the trigger type "minecraft:inventory_changed". This function returns the criteria as an object
+criteria = addCriteria("hasSaplingAndMysteriousDust", "minecraft:inventory_changed")
+
+//Adds the required item for the criteria. This is the item that needs to be in the player inventory.
+criteria.addItem("minecraft:sapling")
+criteria.addItem("hwell:myst_dust")
+
+setRequirements("all")
+setPos(-153,-4)

@@ -1,0 +1,36 @@
+{
+    "name": "Getting Started",
+    "icon": "waystones:waystone",
+    "category": "getting_started",
+    "turnin": "triumph:bookofdreams/forage",
+    "pages": [
+        {
+          "type": "text",
+          "text": "Welcome to the dreamworld.  This book will be your guide throughout this modpack.  This pack is meant to focus on building, interesting automation, and, of course, magic."
+        },
+        {
+          "type": "text",
+          "text": "Early resources will be mostly handled by $(o)Hearth Well$().  You start off with a waystone and some blink scrolls, and can teleport back to it at any time using the button in your inventory.  Enemies are buffed, so make sure you find a safe location as soon as possible.$(br)The next few pages spotlight a few interesting or useful items or mods."
+        },
+        {
+          "type": "crafting",
+          "recipe": "inspirations:wooden_crook",
+          "text": "The crook will greatly aid you in collecting saplings early on"
+        },
+        {
+          "type": "crafting",
+          "recipe": "CTScaffold",
+          "text": "Scaffolds are super cheap and incredibly useful for building quickly."
+        },
+        {
+          "type": "crafting",
+          "recipe": "charm:composter",
+          "text": "This will help you turn plant matter waste into bone meal, which you will need to help bring life back to the world.  You will have more efficient ways of generating bone meal later."
+        },
+        {
+          "type": "crafting",
+          "recipe": "infinitedark:dark_block",
+          "text": "Dark blocks allow you to build structures that appear non-euclidean."
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "name": "Foraging for the Old World",
+    "icon": "minecraft:sapling:0",
+    "category": "getting_started",
+    "turnin": "triumph:bookofdreams/forage",
+    "pages": [
+      {
+        "type": "text",
+        "text": "Most of the $(o)old world$() is gone, and other dimensions have leaked over.$(br2)Forage through the remains by digging with a skyroot shovel or an empty hand to continue."
+      },
+      {
+        "type": "quest",
+        "trigger": "triumph:bookofdreams/forage",
+        "text": "Break aether grass and dirt blocks with a bare hand to forage for a sapling from the old world and mystical dust."
+      },
+      {
+        "type": "spotlight",
+        "item": "minecraft:sapling:0",
+        "text": "Gather one sapling from the $(o)old world$()"
+      },
+      {
+        "type": "spotlight",
+        "item": "hwell:myst_dust",
+        "text": "Gather mystical dust"
+      }
+    ]
+}

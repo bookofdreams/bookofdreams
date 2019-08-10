@@ -1,0 +1,11 @@
+{
+  "name": "midnight:main",
+  "exclusive": true,
+  "criteria": {
+    "dimensionWL": [-23]
+  },
+  "inherit": [
+    "midnight:tower",
+    "midnight:themes"
+  ]
+}

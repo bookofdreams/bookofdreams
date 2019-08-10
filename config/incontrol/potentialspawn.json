@@ -1,0 +1,56 @@
+[
+  {
+    "dimension": 0,
+    "block": [
+      "ore:dirt",
+      "ore:grass",
+      "ore:cobblestone"
+    ],
+    "mobs": [
+
+      {
+        "mob": "lumen:ember",
+        "weight": 1
+      },
+      {
+        "mob": "lumen:faerie",
+        "weight": 50,
+        "groupcountmin": 1,
+        "groupcountmax": 5
+      },
+      {
+        "mob": "lumen:firefly",
+        "weight": 50,
+        "groupcountmin": 0,
+        "groupcountmax": 5
+      },
+      {
+        "mob": "lumen:lightning_bug",
+        "weight": 50,
+        "groupcountmin": 0,
+        "groupcountmax": 5
+      },
+      {
+        "mob": "lumen:will_o_wisp",
+        "weight": 1
+      },
+      {
+        "mob": "lumen:psi_firefly",
+        "weight": 50,
+        "groupcountmin": 0,
+        "groupcountmax": 1
+      }
+    ]
+  },
+  {
+    "dimension": 0,
+    "mobs": [
+      {
+        "mob": "eyesinthedarkness:eyes",
+        "weight": 15,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      }
+    ]
+  }
+]

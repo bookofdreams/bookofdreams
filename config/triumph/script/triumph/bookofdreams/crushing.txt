@@ -1,0 +1,27 @@
+
+//Set icon item
+setIcon(<hwell:crushing_block>)
+
+//Set title String
+setTitle("Hearth Well Beginnings")
+
+//Set description String
+setDescription("Craft a crushing block")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:bookofdreams/tools")
+
+//Set the position
+//setPos(149,41)
+
+//Hide the connection lines, so I can have a pretty shape
+// hideLines()
+
+//Adds criteria with the trigger type "minecraft:inventory_changed". This function returns the criteria as an object
+criteria = addCriteria("hasCrushingBlock", "minecraft:inventory_changed")
+
+//Adds the required item for the criteria. This is the item that needs to be in the player inventory.
+criteria.addItem("hwell:crushing_block")
+
+setRequirements("all")
+setPos(-55,82)

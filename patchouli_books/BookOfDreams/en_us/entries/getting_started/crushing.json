@@ -1,0 +1,28 @@
+{
+    "name": "Crushing",
+    "icon": "hwell:crushing_block",
+    "category": "getting_started",
+    "advancement": "triumph:bookofdreams/tools",
+    "turnin": "triumph:bookofdreams/crushing",
+    "pages": [
+      {
+        "type": "text",
+        "title": "Resource Generation Basics",
+        "text": "Resource generation is handled mostly by Hearth Well.$(br2)To get started, you will need to mine some cobble, craft furnace, and smelt some $(l)Heavy Mix Lumps$()to craft a crushing block.$(br2)Use the $(o)Book of the Well$() for more information."
+      },
+      {
+        "type": "crafting",
+        "recipe": "CTCrushingBlock",
+        "recipe2": "CTHeavyMesh"
+      },
+      {
+        "type": "smelting",
+        "recipe": "hwell:heavy_mesh"
+      },
+      {
+        "type": "quest",
+        "trigger": "triumph:bookofdreams/crushing",
+        "text": "Craft a crushing block."
+      }
+    ]
+}

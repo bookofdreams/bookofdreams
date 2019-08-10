@@ -1,0 +1,50 @@
+{ "rules": [
+{
+  "match": {
+    "blocks": {
+      "blocks": [
+        "aether:aether_dirt:0",
+        "aether:aether_grass:*"
+      ]
+    },
+    "harvester": {
+      "type": "PLAYER",
+      "heldItemMainHand": {
+        "items": ["EMPTY", "aether:skyroot_shovel:*"]
+      }
+    }
+  },
+  "replaceStrategy": "ADD",
+  "drops": [
+    {
+      "selector": {
+        "weight": { "value": 65 }
+      }
+    },
+    {
+      "selector": {
+        "weight": { "value": 8 }
+      },
+      "item": {
+        "items": ["hwell:myst_dust:0"]
+      }
+    },
+    {
+      "selector": {
+        "weight": { "value": 10 }
+      },
+      "item": {
+        "items": ["aether:wisproot_sapling:*", "aether:skyroot_sapling:*", "aether:greatroot_sapling:*"]
+      }
+    },
+    {
+      "selector": {
+        "weight": { "value": 5 }
+      },
+      "item": {
+        "items": ["minecraft:sapling:0"]
+      }
+    }
+  ]
+}
+]}
